@@ -49,4 +49,10 @@ public class DataSourceFactoryTest {
         DataSourceTransactionManager transactionManager = context.getBean("transactionManager", DataSourceTransactionManager.class);
         logger.debug(transactionManager);
     }
+     @Test
+    public void DataSourceTransactionManagerTest1(){
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DataSourceFactory.class);
+        DataSourceTransactionManager transactionManager = context.getBean("transactionManager", DataSourceTransactionManager.class);
+        logger.debug(transactionManager);
+    }
 }
