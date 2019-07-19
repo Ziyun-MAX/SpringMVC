@@ -19,6 +19,7 @@ public class CityDaoTest {
         System.out.println("hello world!");
         System.out.println("孜云");
         System.out.println("蜘蛛侠!");
+        System.out.println("蜘蛛侠!");
     }
 
 
