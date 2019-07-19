@@ -14,12 +14,8 @@ public class CityDaoTest {
 
     private Logger logger = LogManager.getLogger();
 
-    @Test
-    public void findProvinceTest(){
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DataSourceFactory.class);
-        CityDaoImpl cityDaoImpl = context.getBean("cityDaoImpl", CityDaoImpl.class);
-        List<CityVO> province = cityDaoImpl.findProvince();
-        province.forEach((m)->logger.debug(m));
+    public static void main(String[] args) {
+        System.out.println("你好,世界!");
     }
 
 
