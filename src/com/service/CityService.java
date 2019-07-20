@@ -1,7 +1,5 @@
 package com.service;
 
-import com.crm.vo.CityVO;
-
 import java.util.List;
 
 public interface CityService {

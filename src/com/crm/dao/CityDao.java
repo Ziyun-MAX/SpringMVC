@@ -1,6 +1,5 @@
 package com.crm.dao;
 
-import com.crm.vo.CityVO;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

@@ -2,7 +2,6 @@ package com.service.impl;
 
 import com.crm.dao.CityDao;
 import com.service.CityService;
-import com.crm.vo.CityVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;

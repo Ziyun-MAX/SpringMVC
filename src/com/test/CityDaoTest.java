@@ -1,14 +1,7 @@
 package com.test;
 
-import com.crm.dao.impl.CityDaoImpl;
-import com.crm.vo.CityVO;
-import com.datasource.DataSourceFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Test;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.List;
 
 public class CityDaoTest {
 
@@ -21,7 +14,7 @@ public class CityDaoTest {
         System.out.println("蜘蛛侠!");
         System.out.println("蜘蛛侠!");
         System.out.println("美国队长!");
+        System.out.println("亚索");
     }
-
 
 }

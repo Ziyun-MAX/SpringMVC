@@ -1,7 +1,6 @@
 package com.crm.dao.impl;
 
 import com.crm.dao.CityDao;
-import com.crm.vo.CityVO;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
